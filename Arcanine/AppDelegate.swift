@@ -6,16 +6,33 @@
 //  Copyright © 2016 Adam Bell. All rights reserved.
 //
 
+import Pokemon
 import UIKit
+
+public let isAppBoring = false
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
   var window: UIWindow?
-
+  var rootViewController: UINavigationController?
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+    let pokedexViewController = PokedexViewController()
+    
+    UINavigationBar.appearance().translucent = false
+    UINavigationBar.appearance().barTintColor = UIColor.pokeballRed()
+    UINavigationBar.appearance().titleTextAttributes = [ NSForegroundColorAttributeName: UIColor.whiteColor() ]
+    UIApplication.sharedApplication().statusBarStyle = .LightContent
+    
+    let navigationController = UINavigationController(rootViewController: pokedexViewController)
+    self.rootViewController = navigationController
+    
+    let window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    window.rootViewController = navigationController
+    window.makeKeyAndVisible()
+    self.window = window
+    
     return true
   }
 
@@ -40,7 +57,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func applicationWillTerminate(application: UIApplication) {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
   }
-
-
+  
 }
 

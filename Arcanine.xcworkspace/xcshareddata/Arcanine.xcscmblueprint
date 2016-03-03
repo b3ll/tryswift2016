@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "692E2DC9F5D12D256F1ADF6FBCAAE70D30414847" : 0,
+    "880D5B20DDEE7371D33F7D5A3A7E0EEC00323DEF" : 0,
+    "F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6613F062-9DDC-4840-BAC0-4896E4261900",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "692E2DC9F5D12D256F1ADF6FBCAAE70D30414847" : "Arcanine\/External\/pokeapi\/",
+    "880D5B20DDEE7371D33F7D5A3A7E0EEC00323DEF" : "Arcanine\/Libraries\/SwiftyGestureRecognition\/",
+    "F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3" : "Arcanine\/Libraries\/pop\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Arcanine",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Arcanine.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/phalt\/pokeapi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "692E2DC9F5D12D256F1ADF6FBCAAE70D30414847"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:b3ll\/SwiftyGestureRecognition.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "880D5B20DDEE7371D33F7D5A3A7E0EEC00323DEF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:facebook\/pop.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3"
+    }
+  ]
+}

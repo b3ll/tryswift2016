@@ -1,0 +1,9 @@
+[submodule "Libraries/pop"]
+	path = Libraries/pop
+	url = https://github.com/facebook/pop.git
+[submodule "Libraries/SwiftyGestureRecognition"]
+	path = Libraries/SwiftyGestureRecognition
+	url = https://github.com/b3ll/SwiftyGestureRecognition.git
+[submodule "External/pokeapi"]
+	path = External/pokeapi
+	url = https://github.com/phalt/pokeapi.git
